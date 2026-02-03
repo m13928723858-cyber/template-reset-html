@@ -1,0 +1,490 @@
+{
+  "product_cards": [
+    {
+      "rank": "1",
+      "rank_button_text": "#1 Best Overall",
+      "product_name": "Grounded Footwear\n\t\t\t\t\t\t\t\t\tNon-Slip Barefoot Shoes",
+      "product_image": null,
+      "pros": [
+        "Natural feel under any\n\t\t\t\t\t\t\t\t\t\t\tconditions",
+        "Most durable sole on the market",
+        "Wide toe box design",
+        "Zero-drop heel alignment",
+        "Non-slip & water-resistant\n\t\t\t\t\t\t\t\t\t\t\tdesign",
+        "Lightweight construction",
+        "Easy to slip on",
+        "Comfortable for all-day\n\t\t\t\t\t\t\t\t\t\t\twear",
+        "Machine washable",
+        "Money back guarantee",
+        "98% Verified positive customer\n\t\t\t\t\t\t\t\t\t\t\treviews"
+      ],
+      "cons": [
+        "Only Available at Grounded Official\n\t\t\t\t\t\t\t\t\t\t\tStore",
+        "Frequently Sells Out Due to High\n\t\t\t\t\t\t\t\t\t\t\tDemand"
+      ],
+      "rating_score": 9.8,
+      "rating_stars": null,
+      "rating_title": "\"The ultimate\n\t\t\t\t\t\t\t\t\t\t\tbarefoot experience\"",
+      "review_count": "4,215 Reviews",
+      "cta_button_text": "Visit Official Site",
+      "cta_button_url": "https://simplehonestreview.com/cf/click/1/",
+      "discount_heading": "Exclusive 50% Off Limited Discount",
+      "html_structure": {
+        "product_name": {
+          "selector": "h2.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h2_2"
+        },
+        "pros": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_2",
+          "icon_class": "far fa-hand-point-right",
+          "item_count": 11
+        },
+        "cons": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_3",
+          "icon_class": "far fa-times-circle",
+          "item_count": 2
+        },
+        "rating_score": {
+          "selector": "h3.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h3_4"
+        },
+        "rating_title": {
+          "selector": "h3.elementor-image-box-title",
+          "data_content_id": "h3_5"
+        },
+        "review_count": {
+          "selector": "p.elementor-image-box-description",
+          "data_content_id": "p_6"
+        },
+        "cta_button": {
+          "selector": "a.elementor-button.elementor-button-link",
+          "data_content_id": "link_3"
+        },
+        "all_cta_buttons": [
+          {
+            "text": "Visit Official Site",
+            "url": "https://simplehonestreview.com/cf/click/1/",
+            "data_content_id": "link_3"
+          },
+          {
+            "text": "Check Grounded Stock",
+            "url": "https://simplehonestreview.com/cf/click/1/",
+            "data_content_id": "link_4"
+          }
+        ],
+        "discount_heading": {
+          "selector": "h2.elementor-heading-title.elementor-size-medium",
+          "data_content_id": "h2_3"
+        }
+      }
+    },
+    {
+      "rank": "2",
+      "rank_button_text": "#2",
+      "product_name": "Vivobarefoot Primus Lite",
+      "product_image": null,
+      "pros": [
+        "Superior grip",
+        "2-Year sole warranty",
+        "Ergonomic fit",
+        "Water resistant",
+        "Breathable mesh",
+        "Easy to clean",
+        "No-hassle returns"
+      ],
+      "cons": [
+        "Traction not as good as\n\t\t\t\t\t\t\t\t\t\t\tGrounded",
+        "Expensive international shipping"
+      ],
+      "rating_score": 9.3,
+      "rating_stars": null,
+      "rating_title": "\"Premium but\n\t\t\t\t\t\t\t\t\t\t\tPricey\"",
+      "review_count": "2,150 Reviews",
+      "cta_button_text": "View Vivobarefoot",
+      "cta_button_url": "https://simplehonestreview.com/cf/click/1/",
+      "discount_heading": null,
+      "html_structure": {
+        "product_name": {
+          "selector": "h2.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h2_6"
+        },
+        "pros": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_4",
+          "icon_class": "far fa-hand-point-right",
+          "item_count": 7
+        },
+        "cons": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_5",
+          "icon_class": "far fa-times-circle",
+          "item_count": 2
+        },
+        "rating_score": {
+          "selector": "h3.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h3_7"
+        },
+        "rating_title": {
+          "selector": "h3.elementor-image-box-title",
+          "data_content_id": "h3_8"
+        },
+        "review_count": {
+          "selector": "p.elementor-image-box-description",
+          "data_content_id": "p_7"
+        },
+        "cta_button": {
+          "selector": "a.elementor-button.elementor-button-link",
+          "data_content_id": "link_6"
+        }
+      }
+    },
+    {
+      "rank": "3",
+      "rank_button_text": "#3",
+      "product_name": "Xero\n\t\t\t\t\t\t\t\t\tShoes Prio",
+      "product_image": null,
+      "pros": [
+        "Abrasion, water, and\n\t\t\t\t\t\t\t\t\t\t\twind-resistant",
+        "Reinforced non-slip patterns",
+        "Ultra-lightweight, yet protective",
+        "Sleek modern design",
+        "Safe for hand and machine washing",
+        "Flexible sole",
+        "Ideal for gym, hiking, or casual daily\n\t\t\t\t\t\t\t\t\t\t\twear,\n\t\t\t\t\t\t\t\t\t\t\tactive commuting or walking your dog"
+      ],
+      "cons": [
+        "Overpriced for quality",
+        "Narrow toe box",
+        "The sole wears down fast",
+        "Mixed user feedback"
+      ],
+      "rating_score": 9.1,
+      "rating_stars": null,
+      "rating_title": "\"Reliable\n\t\t\t\t\t\t\t\t\t\t\tPerformance\"",
+      "review_count": "3,120 Reviews",
+      "cta_button_text": "View Xero Shoes",
+      "cta_button_url": "https://simplehonestreview.com/cf/click/1/",
+      "discount_heading": null,
+      "html_structure": {
+        "product_name": {
+          "selector": "h2.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h2_9"
+        },
+        "pros": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_6",
+          "icon_class": "far fa-hand-point-right",
+          "item_count": 7
+        },
+        "cons": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_7",
+          "icon_class": "far fa-times-circle",
+          "item_count": 4
+        },
+        "rating_score": {
+          "selector": "h3.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h3_10"
+        },
+        "rating_title": {
+          "selector": "h3.elementor-image-box-title",
+          "data_content_id": "h3_11"
+        },
+        "review_count": {
+          "selector": "p.elementor-image-box-description",
+          "data_content_id": "p_8"
+        },
+        "cta_button": {
+          "selector": "a.elementor-button.elementor-button-link",
+          "data_content_id": "link_8"
+        }
+      }
+    },
+    {
+      "rank": "4",
+      "rank_button_text": "#4",
+      "product_name": "Merrell Vapor Glove",
+      "product_image": null,
+      "pros": [
+        "Slip & water resistant",
+        "Packable design",
+        "Lightweight protection",
+        "Natural foot shape sole",
+        "Years of durability",
+        "Washer safe",
+        "Quick-dry fabric"
+      ],
+      "cons": [
+        "Not budget friendly",
+        "Arch support is too aggressive",
+        "No ground feel in the heel",
+        "Squeaky on hard floors"
+      ],
+      "rating_score": 8.9,
+      "rating_stars": null,
+      "rating_title": "\"Solid Ground\n\t\t\t\t\t\t\t\t\t\t\tFeel\"",
+      "review_count": "1,045 Reviews",
+      "cta_button_text": "View Merrell",
+      "cta_button_url": "https://simplehonestreview.com/cf/click/1/",
+      "discount_heading": null,
+      "html_structure": {
+        "product_name": {
+          "selector": "h2.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h2_12"
+        },
+        "pros": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_8",
+          "icon_class": "far fa-hand-point-right",
+          "item_count": 7
+        },
+        "cons": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_9",
+          "icon_class": "far fa-times-circle",
+          "item_count": 4
+        },
+        "rating_score": {
+          "selector": "h3.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h3_13"
+        },
+        "rating_title": {
+          "selector": "h3.elementor-image-box-title",
+          "data_content_id": "h3_14"
+        },
+        "review_count": {
+          "selector": "p.elementor-image-box-description",
+          "data_content_id": "p_9"
+        },
+        "cta_button": {
+          "selector": "a.elementor-button.elementor-button-link",
+          "data_content_id": "link_10"
+        }
+      }
+    },
+    {
+      "rank": "5",
+      "rank_button_text": "#5",
+      "product_name": "Generic Minimalist Shoe",
+      "product_image": null,
+      "pros": [
+        "Stretch-knit material",
+        "3-Point traction",
+        "Quick dry time",
+        "Breathable liner",
+        "Zero-drop design",
+        "Protective toe cap",
+        "Moisture wicking"
+      ],
+      "cons": [
+        "Weak sole durability",
+        "Runs small in size",
+        "Difficult return process"
+      ],
+      "rating_score": 8.5,
+      "rating_stars": null,
+      "rating_title": "\"Lacks Grip\"",
+      "review_count": "560 Reviews",
+      "cta_button_text": "View Others",
+      "cta_button_url": "https://simplehonestreview.com/cf/click/1/",
+      "discount_heading": null,
+      "html_structure": {
+        "product_name": {
+          "selector": "h2.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h2_15"
+        },
+        "pros": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_10",
+          "icon_class": "far fa-hand-point-right",
+          "item_count": 7
+        },
+        "cons": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_11",
+          "icon_class": "far fa-times-circle",
+          "item_count": 3
+        },
+        "rating_score": {
+          "selector": "h3.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h3_16"
+        },
+        "rating_title": {
+          "selector": "h3.elementor-image-box-title",
+          "data_content_id": "h3_17"
+        },
+        "review_count": {
+          "selector": "p.elementor-image-box-description",
+          "data_content_id": "p_10"
+        },
+        "cta_button": {
+          "selector": "a.elementor-button.elementor-button-link",
+          "data_content_id": "link_12"
+        }
+      }
+    },
+    {
+      "rank": "1",
+      "rank_button_text": "#1 Best Overall",
+      "product_name": "Grounded Footwear\n\t\t\t\t\t\t\t\t\tNon-Slip Barefoot Shoes",
+      "product_image": null,
+      "pros": [
+        "Natural feel under any\n\t\t\t\t\t\t\t\t\t\t\tconditions",
+        "Most durable sole on the market",
+        "Wide toe box design",
+        "Zero-drop heel alignment",
+        "Non-slip & water-resistant\n\t\t\t\t\t\t\t\t\t\t\tdesign",
+        "Lightweight construction",
+        "Easy to slip on",
+        "Comfortable for all-day\n\t\t\t\t\t\t\t\t\t\t\twear",
+        "Machine washable",
+        "Money back guarantee",
+        "98% Verified positive customer\n\t\t\t\t\t\t\t\t\t\t\treviews"
+      ],
+      "cons": [
+        "Only Available at Grounded Official\n\t\t\t\t\t\t\t\t\t\t\tStore",
+        "Frequently Sells Out Due to High\n\t\t\t\t\t\t\t\t\t\t\tDemand"
+      ],
+      "rating_score": 9.8,
+      "rating_stars": null,
+      "rating_title": "\"The ultimate\n\t\t\t\t\t\t\t\t\t\t\tbarefoot experience\"",
+      "review_count": "4,215 Reviews",
+      "cta_button_text": "Visit Official Site",
+      "cta_button_url": "https://simplehonestreview.com/cf/click/1/",
+      "discount_heading": "Exclusive 50% Off Limited Discount",
+      "html_structure": {
+        "product_name": {
+          "selector": "h2.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h2_18"
+        },
+        "pros": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_12",
+          "icon_class": "far fa-hand-point-right",
+          "item_count": 11
+        },
+        "cons": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_13",
+          "icon_class": "far fa-times-circle",
+          "item_count": 2
+        },
+        "rating_score": {
+          "selector": "h3.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h3_20"
+        },
+        "rating_title": {
+          "selector": "h3.elementor-image-box-title",
+          "data_content_id": "h3_21"
+        },
+        "review_count": {
+          "selector": "p.elementor-image-box-description",
+          "data_content_id": "p_11"
+        },
+        "cta_button": {
+          "selector": "a.elementor-button.elementor-button-link",
+          "data_content_id": "link_15"
+        },
+        "all_cta_buttons": [
+          {
+            "text": "Visit Official Site",
+            "url": "https://simplehonestreview.com/cf/click/1/",
+            "data_content_id": "link_15"
+          },
+          {
+            "text": "Check Grounded Stock",
+            "url": "https://simplehonestreview.com/cf/click/1/",
+            "data_content_id": "link_16"
+          }
+        ],
+        "discount_heading": {
+          "selector": "h2.elementor-heading-title.elementor-size-medium",
+          "data_content_id": "h2_19"
+        }
+      }
+    },
+    {
+      "rank": "1",
+      "rank_button_text": "#1 Best Overall",
+      "product_name": "Grounded Footwear\n\t\t\t\t\t\t\t\t\tNon-Slip Barefoot Shoes",
+      "product_image": null,
+      "pros": [
+        "Natural feel under any\n\t\t\t\t\t\t\t\t\t\t\tconditions",
+        "Most durable sole on the market",
+        "Wide toe box design",
+        "Zero-drop heel alignment",
+        "Non-slip & water-resistant\n\t\t\t\t\t\t\t\t\t\t\tdesign",
+        "Lightweight construction",
+        "Easy to slip on",
+        "Comfortable for all-day\n\t\t\t\t\t\t\t\t\t\t\twear",
+        "Machine washable",
+        "Money back guarantee",
+        "98% Verified positive customer\n\t\t\t\t\t\t\t\t\t\t\treviews"
+      ],
+      "cons": [
+        "Only Available at Grounded Official\n\t\t\t\t\t\t\t\t\t\t\tStore",
+        "Frequently Sells Out Due to High\n\t\t\t\t\t\t\t\t\t\t\tDemand"
+      ],
+      "rating_score": 9.8,
+      "rating_stars": null,
+      "rating_title": "\"The ultimate\n\t\t\t\t\t\t\t\t\t\t\tbarefoot experience\"",
+      "review_count": "4,215 Reviews",
+      "cta_button_text": "Visit Official Site",
+      "cta_button_url": "https://simplehonestreview.com/cf/click/1/",
+      "discount_heading": "Exclusive 50% Off Limited Discount",
+      "html_structure": {
+        "product_name": {
+          "selector": "h2.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h2_31"
+        },
+        "pros": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_15",
+          "icon_class": "far fa-hand-point-right",
+          "item_count": 11
+        },
+        "cons": {
+          "selector": "ul.elementor-icon-list-items",
+          "data_content_id": "list_16",
+          "icon_class": "far fa-times-circle",
+          "item_count": 2
+        },
+        "rating_score": {
+          "selector": "h3.elementor-heading-title.elementor-size-default",
+          "data_content_id": "h3_33"
+        },
+        "rating_title": {
+          "selector": "h3.elementor-image-box-title",
+          "data_content_id": "h3_34"
+        },
+        "review_count": {
+          "selector": "p.elementor-image-box-description",
+          "data_content_id": "p_14"
+        },
+        "cta_button": {
+          "selector": "a.elementor-button.elementor-button-link",
+          "data_content_id": "link_24"
+        },
+        "all_cta_buttons": [
+          {
+            "text": "Visit Official Site",
+            "url": "https://simplehonestreview.com/cf/click/1/",
+            "data_content_id": "link_24"
+          },
+          {
+            "text": "Check Grounded Stock",
+            "url": "https://simplehonestreview.com/cf/click/1/",
+            "data_content_id": "link_25"
+          }
+        ],
+        "discount_heading": {
+          "selector": "h2.elementor-heading-title.elementor-size-medium",
+          "data_content_id": "h2_32"
+        }
+      }
+    }
+  ],
+  "total_cards": 7
+}

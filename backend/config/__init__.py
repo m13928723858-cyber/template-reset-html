@@ -1,0 +1,13 @@
+from .text_replacement_config import (
+    TEXT_REPLACEMENT_CONFIG, 
+    PRODUCT_TYPE_CONFIGS,
+    REVIEW_STYLE_CONFIG,
+    REVIEW_TEMPLATES
+)
+
+__all__ = [
+    'TEXT_REPLACEMENT_CONFIG', 
+    'PRODUCT_TYPE_CONFIGS',
+    'REVIEW_STYLE_CONFIG',
+    'REVIEW_TEMPLATES'
+]

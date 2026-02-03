@@ -1,0 +1,18 @@
+{
+  "template": "d:\\桌面\\网页重置\\top5Grounded Footwear\\index.html",
+  "output": "d:\\桌面\\网页重置\\backend\\output\\filled_template.html",
+  "content_stats": {
+    "headings": 46,
+    "paragraphs": 37,
+    "lists": 17,
+    "buttons": 17
+  },
+  "image_stats": {
+    "total": 12,
+    "success": 9,
+    "user_uploaded": 3,
+    "failed": 0
+  },
+  "output_size": 94184,
+  "success": true
+}

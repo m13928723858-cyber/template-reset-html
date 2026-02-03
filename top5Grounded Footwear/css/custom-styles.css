@@ -1,0 +1,1116 @@
+﻿
+/* 隐藏图片12 (logo) */
+.elementor-element-61908485 {
+	display: none !important;
+}
+
+/* 移动端星级评分位置调整 - 增加下边距避免与文案重叠 */
+@media (max-width: 767px) {
+	/* 普通产品卡片的星级评分 */
+	.elementor-element-6411bc93 .elementor-star-rating,
+	.elementor-element-543339a1 .elementor-star-rating,
+	.elementor-element-3e83f061 .elementor-star-rating,
+	.elementor-element-42286bfd .elementor-star-rating {
+		margin-bottom: 8px !important;
+	}
+	
+	/* 确保星级评分容器也有足够间距 */
+	.elementor-element-6411bc93,
+	.elementor-element-543339a1,
+	.elementor-element-3e83f061,
+	.elementor-element-42286bfd {
+		margin-bottom: 8px !important;
+		padding-bottom: 5px !important;
+	}
+	
+	/* Winner产品卡片的星级评分 - 需要更大的间距 */
+	.elementor-element-59e526c8 .elementor-star-rating,
+	.elementor-element-b6e3f61 .elementor-star-rating,
+	.elementor-element-9b58f23 .elementor-star-rating {
+		margin-bottom: 12px !important;
+	}
+	
+	/* Winner产品星级评分容器 */
+	.elementor-element-59e526c8,
+	.elementor-element-b6e3f61,
+	.elementor-element-9b58f23 {
+		margin-bottom: 12px !important;
+		padding-bottom: 8px !important;
+	}
+}
+
+/* 统一所有产品卡片的样式 */
+
+/* 标题部分 - 添加背景图 */
+.elementor-section.elementor-element-7d7f99ca {
+    background-image: url('../image/background.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    min-height: 300px !important;
+    padding: 60px 20px !important;
+    margin: 0 !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* 标题部分 - 添加半透明遮罩层确保文字清晰 */
+.elementor-section.elementor-element-7d7f99ca::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(255, 255, 255, 0.6) !important;
+    z-index: 0 !important;
+}
+
+/* 确保标题内容在遮罩层之上并垂直居中 */
+.elementor-section.elementor-element-7d7f99ca .elementor-container {
+    position: relative !important;
+    z-index: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    min-height: 100% !important;
+}
+
+.elementor-section.elementor-element-7d7f99ca .elementor-column {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.elementor-section.elementor-element-7d7f99ca .elementor-widget-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+/* 标题文字样式增强 */
+.elementor-element-7b51ae25 .elementor-heading-title {
+    color: #222222 !important;
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8) !important;
+    font-weight: 700 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一标签位置和样式（水平居中）*/
+.elementor-element-6c50376e,
+.elementor-element-1dc6bdf9,
+.elementor-element-7bc044a,
+.elementor-element-279c6d9 {
+    text-align: center !important;
+    margin-bottom: 15px !important;
+}
+
+.elementor-element-6c50376e .elementor-button-wrapper,
+.elementor-element-1dc6bdf9 .elementor-button-wrapper,
+.elementor-element-7bc044a .elementor-button-wrapper,
+.elementor-element-279c6d9 .elementor-button-wrapper {
+    display: inline-block !important;
+    text-align: center !important;
+}
+
+.elementor-element-6c50376e .elementor-button,
+.elementor-element-1dc6bdf9 .elementor-button,
+.elementor-element-7bc044a .elementor-button,
+.elementor-element-279c6d9 .elementor-button {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 8px 16px !important;
+    border-radius: 4px !important;
+    display: inline-block !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一图片容器样式 */
+.elementor-element-165c65d8 .elementor-widget-container,
+.elementor-element-6ccfe851 .elementor-widget-container,
+.elementor-element-442df28d .elementor-widget-container,
+.elementor-element-2b8f2ab .elementor-widget-container {
+    text-align: center !important;
+    padding: 10px !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一图片样式 */
+.elementor-element-165c65d8 img,
+.elementor-element-6ccfe851 img,
+.elementor-element-442df28d img,
+.elementor-element-2b8f2ab img {
+    max-width: 100% !important;
+    height: auto !important;
+    width: 600px !important;
+    max-height: 600px !important;
+    object-fit: contain !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一评分数字样式 */
+.elementor-element-4ecc64c3 .elementor-heading-title,
+.elementor-element-3aeaed0e .elementor-heading-title,
+.elementor-element-6fb1a5ae .elementor-heading-title,
+.elementor-element-c62b8cc .elementor-heading-title {
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    color: #4CAF50 !important;
+    text-align: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    line-height: 1 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 移除评分数字容器的上边距 */
+.elementor-element-4ecc64c3,
+.elementor-element-3aeaed0e,
+.elementor-element-6fb1a5ae,
+.elementor-element-c62b8cc {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.elementor-element-4ecc64c3 .elementor-widget-container,
+.elementor-element-3aeaed0e .elementor-widget-container,
+.elementor-element-6fb1a5ae .elementor-widget-container,
+.elementor-element-c62b8cc .elementor-widget-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一星级评分样式 */
+.elementor-element-6411bc93 .elementor-star-rating,
+.elementor-element-543339a1 .elementor-star-rating,
+.elementor-element-3e83f061 .elementor-star-rating,
+.elementor-element-42286bfd .elementor-star-rating {
+    font-size: 20px !important;
+    color: #FFD700 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 移除星级评分容器的上边距 */
+.elementor-element-6411bc93,
+.elementor-element-543339a1,
+.elementor-element-3e83f061,
+.elementor-element-42286bfd {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.elementor-element-6411bc93 .elementor-widget-container,
+.elementor-element-543339a1 .elementor-widget-container,
+.elementor-element-3e83f061 .elementor-widget-container,
+.elementor-element-42286bfd .elementor-widget-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一评价标题样式 */
+.elementor-element-62a12aaf .elementor-image-box-title,
+.elementor-element-64635105 .elementor-image-box-title,
+.elementor-element-30bb3f07 .elementor-image-box-title,
+.elementor-element-19e28341 .elementor-image-box-title {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #333333 !important;
+    text-align: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+    line-height: 1.4 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一评价描述样式 */
+.elementor-element-62a12aaf .elementor-image-box-description,
+.elementor-element-64635105 .elementor-image-box-description,
+.elementor-element-30bb3f07 .elementor-image-box-description,
+.elementor-element-19e28341 .elementor-image-box-description {
+    font-size: 14px !important;
+    color: #666666 !important;
+    text-align: center !important;
+    margin: 0 !important;
+    line-height: 1.5 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一评价内容容器样式（从顶部开始）*/
+.elementor-element-62a12aaf .elementor-image-box-content,
+.elementor-element-64635105 .elementor-image-box-content,
+.elementor-element-30bb3f07 .elementor-image-box-content,
+.elementor-element-19e28341 .elementor-image-box-content {
+    text-align: center !important;
+    padding: 0 10px !important;
+    margin-top: 0 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 评价描述整体容器从顶部开始 */
+.elementor-element-62a12aaf,
+.elementor-element-64635105,
+.elementor-element-30bb3f07,
+.elementor-element-19e28341 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.elementor-element-62a12aaf .elementor-widget-container,
+.elementor-element-64635105 .elementor-widget-container,
+.elementor-element-30bb3f07 .elementor-widget-container,
+.elementor-element-19e28341 .elementor-widget-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一产品标题样式 */
+.elementor-element-f3a6ced .elementor-heading-title,
+.elementor-element-5da54911 .elementor-heading-title,
+.elementor-element-da77acd .elementor-heading-title,
+.elementor-element-5a3eee81 .elementor-heading-title {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    color: #222222 !important;
+    text-align: center !important;
+    margin: 15px 0 !important;
+    line-height: 1.3 !important;
+}
+
+/* #2、#3、#4、#5 产品卡片 - 统一第一列背景样式 */
+.elementor-element-324b2f7e,
+.elementor-element-589b4261,
+.elementor-element-3888883d,
+.elementor-element-26e8aecb {
+    background-color: #f9f9f9 !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+}
+
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+		@media screen and (max-height: 1024px) {
+
+		}
+
+		@media screen and (max-height: 640px) {
+
+		}
+
+		/* 移动端保持横向布局 - 强制三列布局 */
+		@media (max-width: 1024px) {
+			/* 强制所有产品卡片的列保持横向排列 */
+			.elementor-element-7dd4e735 .elementor-column,
+			.elementor-element-6b2d4e4b .elementor-column,
+			.elementor-element-6b512bae .elementor-column,
+			.elementor-element-2c17721d .elementor-column,
+			.elementor-element-16a0b523 .elementor-column,
+			.elementor-element-e3826ca .elementor-column,
+			.elementor-element-2024a90 .elementor-column {
+				width: 33.333% !important;
+				float: left !important;
+				padding: 3px !important;
+				margin: 0 !important;
+			}
+
+			/* 确保容器使用 flexbox 布局 */
+			.elementor-element-7dd4e735 .elementor-container,
+			.elementor-element-6b2d4e4b .elementor-container,
+			.elementor-element-6b512bae .elementor-container,
+			.elementor-element-2c17721d .elementor-container,
+			.elementor-element-16a0b523 .elementor-container,
+			.elementor-element-e3826ca .elementor-container,
+			.elementor-element-2024a90 .elementor-container {
+				display: flex !important;
+				flex-wrap: nowrap !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			/* 缩小section间距 */
+			.elementor-element-7dd4e735,
+			.elementor-element-6b2d4e4b,
+			.elementor-element-6b512bae,
+			.elementor-element-2c17721d,
+			.elementor-element-16a0b523,
+			.elementor-element-e3826ca,
+			.elementor-element-2024a90 {
+				padding: 5px 0 !important;
+				margin: 0 !important;
+			}
+
+			/* 调整图片大小以适应移动端 */
+			.elementor-element-7dd4e735 .elementor-widget-image img,
+			.elementor-element-6b2d4e4b .elementor-widget-image img,
+			.elementor-element-6b512bae .elementor-widget-image img,
+			.elementor-element-2c17721d .elementor-widget-image img,
+			.elementor-element-16a0b523 .elementor-widget-image img,
+			.elementor-element-e3826ca .elementor-widget-image img,
+			.elementor-element-2024a90 .elementor-widget-image img {
+				max-width: 100% !important;
+				height: auto !important;
+			}
+
+			/* 缩小所有widget的间距 */
+			.elementor-element-7dd4e735 .elementor-widget,
+			.elementor-element-6b2d4e4b .elementor-widget,
+			.elementor-element-6b512bae .elementor-widget,
+			.elementor-element-2c17721d .elementor-widget,
+			.elementor-element-16a0b523 .elementor-widget,
+			.elementor-element-e3826ca .elementor-widget,
+			.elementor-element-2024a90 .elementor-widget {
+				margin-bottom: 3px !important;
+			}
+
+			/* 调整字体大小以适应小屏幕 */
+			.elementor-element-7dd4e735 .elementor-heading-title,
+			.elementor-element-6b2d4e4b .elementor-heading-title,
+			.elementor-element-6b512bae .elementor-heading-title,
+			.elementor-element-2c17721d .elementor-heading-title,
+			.elementor-element-16a0b523 .elementor-heading-title,
+			.elementor-element-e3826ca .elementor-heading-title,
+			.elementor-element-2024a90 .elementor-heading-title {
+				font-size: 13px !important;
+				margin: 0 0 3px 0 !important;
+				line-height: 1.2 !important;
+			}
+
+			/* 调整图标列表字体大小和间距 */
+			.elementor-element-7dd4e735 .elementor-icon-list-text,
+			.elementor-element-6b2d4e4b .elementor-icon-list-text,
+			.elementor-element-6b512bae .elementor-icon-list-text,
+			.elementor-element-2c17721d .elementor-icon-list-text,
+			.elementor-element-16a0b523 .elementor-icon-list-text,
+			.elementor-element-e3826ca .elementor-icon-list-text,
+			.elementor-element-2024a90 .elementor-icon-list-text {
+				font-size: 10px !important;
+				line-height: 1.3 !important;
+			}
+
+			/* 缩小列表项间距 */
+			.elementor-element-7dd4e735 .elementor-icon-list-item,
+			.elementor-element-6b2d4e4b .elementor-icon-list-item,
+			.elementor-element-6b512bae .elementor-icon-list-item,
+			.elementor-element-2c17721d .elementor-icon-list-item,
+			.elementor-element-16a0b523 .elementor-icon-list-item,
+			.elementor-element-e3826ca .elementor-icon-list-item,
+			.elementor-element-2024a90 .elementor-icon-list-item {
+				margin-bottom: 2px !important;
+				padding: 1px 0 !important;
+			}
+
+			/* 调整按钮大小和间距 */
+			.elementor-element-7dd4e735 .elementor-button,
+			.elementor-element-6b2d4e4b .elementor-button,
+			.elementor-element-6b512bae .elementor-button,
+			.elementor-element-2c17721d .elementor-button,
+			.elementor-element-16a0b523 .elementor-button,
+			.elementor-element-e3826ca .elementor-button,
+			.elementor-element-2024a90 .elementor-button {
+				font-size: 11px !important;
+				padding: 5px 10px !important;
+				margin: 3px 0 !important;
+			}
+
+			/* 调整评分区域 */
+			.elementor-element-7dd4e735 .elementor-widget-heading h3,
+			.elementor-element-6b2d4e4b .elementor-widget-heading h3,
+			.elementor-element-6b512bae .elementor-widget-heading h3,
+			.elementor-element-2c17721d .elementor-widget-heading h3,
+			.elementor-element-16a0b523 .elementor-widget-heading h3,
+			.elementor-element-e3826ca .elementor-widget-heading h3,
+			.elementor-element-2024a90 .elementor-widget-heading h3 {
+				font-size: 22px !important;
+				margin: 0 !important;
+				line-height: 1 !important;
+			}
+
+			/* 缩小分隔线间距 */
+			.elementor-element-7dd4e735 .elementor-divider,
+			.elementor-element-6b2d4e4b .elementor-divider,
+			.elementor-element-6b512bae .elementor-divider,
+			.elementor-element-2c17721d .elementor-divider,
+			.elementor-element-16a0b523 .elementor-divider,
+			.elementor-element-e3826ca .elementor-divider,
+			.elementor-element-2024a90 .elementor-divider {
+				margin: 3px 0 !important;
+			}
+
+			/* 缩小spacer高度 */
+			.elementor-element-7dd4e735 .elementor-spacer,
+			.elementor-element-6b2d4e4b .elementor-spacer,
+			.elementor-element-6b512bae .elementor-spacer,
+			.elementor-element-2c17721d .elementor-spacer,
+			.elementor-element-16a0b523 .elementor-spacer,
+			.elementor-element-e3826ca .elementor-spacer,
+			.elementor-element-2024a90 .elementor-spacer {
+				height: 5px !important;
+			}
+		}
+
+		/* 针对更小的手机屏幕 */
+		@media (max-width: 767px) {
+			/* 保持三列布局但调整宽度 */
+			.elementor-element-7dd4e735 .elementor-column,
+			.elementor-element-6b2d4e4b .elementor-column,
+			.elementor-element-6b512bae .elementor-column,
+			.elementor-element-2c17721d .elementor-column,
+			.elementor-element-16a0b523 .elementor-column,
+			.elementor-element-e3826ca .elementor-column,
+			.elementor-element-2024a90 .elementor-column {
+				width: 33.333% !important;
+				min-width: 33.333% !important;
+				padding: 2px !important;
+				margin: 0 !important;
+			}
+
+			/* 进一步缩小section间距 */
+			.elementor-element-7dd4e735,
+			.elementor-element-6b2d4e4b,
+			.elementor-element-6b512bae,
+			.elementor-element-2c17721d,
+			.elementor-element-16a0b523,
+			.elementor-element-e3826ca,
+			.elementor-element-2024a90 {
+				padding: 3px 0 !important;
+				margin: 0 !important;
+			}
+
+			/* 进一步缩小所有widget的间距 */
+			.elementor-element-7dd4e735 .elementor-widget,
+			.elementor-element-6b2d4e4b .elementor-widget,
+			.elementor-element-6b512bae .elementor-widget,
+			.elementor-element-2c17721d .elementor-widget,
+			.elementor-element-16a0b523 .elementor-widget,
+			.elementor-element-e3826ca .elementor-widget,
+			.elementor-element-2024a90 .elementor-widget {
+				margin-bottom: 2px !important;
+			}
+
+			/* 进一步缩小字体 */
+			.elementor-element-7dd4e735 .elementor-heading-title,
+			.elementor-element-6b2d4e4b .elementor-heading-title,
+			.elementor-element-6b512bae .elementor-heading-title,
+			.elementor-element-2c17721d .elementor-heading-title,
+			.elementor-element-16a0b523 .elementor-heading-title,
+			.elementor-element-e3826ca .elementor-heading-title,
+			.elementor-element-2024a90 .elementor-heading-title {
+				font-size: 10px !important;
+				margin: 0 0 2px 0 !important;
+				line-height: 1.1 !important;
+			}
+
+			.elementor-element-7dd4e735 .elementor-icon-list-text,
+			.elementor-element-6b2d4e4b .elementor-icon-list-text,
+			.elementor-element-6b512bae .elementor-icon-list-text,
+			.elementor-element-2c17721d .elementor-icon-list-text,
+			.elementor-element-16a0b523 .elementor-icon-list-text,
+			.elementor-element-e3826ca .elementor-icon-list-text,
+			.elementor-element-2024a90 .elementor-icon-list-text {
+				font-size: 8px !important;
+				line-height: 1.2 !important;
+			}
+
+			/* 进一步缩小列表项间距 */
+			.elementor-element-7dd4e735 .elementor-icon-list-item,
+			.elementor-element-6b2d4e4b .elementor-icon-list-item,
+			.elementor-element-6b512bae .elementor-icon-list-item,
+			.elementor-element-2c17721d .elementor-icon-list-item,
+			.elementor-element-16a0b523 .elementor-icon-list-item,
+			.elementor-element-e3826ca .elementor-icon-list-item,
+			.elementor-element-2024a90 .elementor-icon-list-item {
+				margin-bottom: 1px !important;
+				padding: 0 !important;
+			}
+
+			.elementor-element-7dd4e735 .elementor-button,
+			.elementor-element-6b2d4e4b .elementor-button,
+			.elementor-element-6b512bae .elementor-button,
+			.elementor-element-2c17721d .elementor-button,
+			.elementor-element-16a0b523 .elementor-button,
+			.elementor-element-e3826ca .elementor-button,
+			.elementor-element-2024a90 .elementor-button {
+				font-size: 9px !important;
+				padding: 4px 6px !important;
+				margin: 2px 0 !important;
+			}
+
+			/* 调整评分数字大小 */
+			.elementor-element-7dd4e735 .elementor-widget-heading h3,
+			.elementor-element-6b2d4e4b .elementor-widget-heading h3,
+			.elementor-element-6b512bae .elementor-widget-heading h3,
+			.elementor-element-2c17721d .elementor-widget-heading h3,
+			.elementor-element-16a0b523 .elementor-widget-heading h3,
+			.elementor-element-e3826ca .elementor-widget-heading h3,
+			.elementor-element-2024a90 .elementor-widget-heading h3 {
+				font-size: 18px !important;
+				margin: 0 !important;
+				line-height: 1 !important;
+			}
+
+			/* 调整星级评分大小 */
+			.elementor-element-7dd4e735 .elementor-star-rating,
+			.elementor-element-6b2d4e4b .elementor-star-rating,
+			.elementor-element-6b512bae .elementor-star-rating,
+			.elementor-element-2c17721d .elementor-star-rating,
+			.elementor-element-16a0b523 .elementor-star-rating,
+			.elementor-element-e3826ca .elementor-star-rating,
+			.elementor-element-2024a90 .elementor-star-rating {
+				font-size: 10px !important;
+			}
+
+			/* 调整图片框标题 */
+			.elementor-element-7dd4e735 .elementor-image-box-title,
+			.elementor-element-6b2d4e4b .elementor-image-box-title,
+			.elementor-element-6b512bae .elementor-image-box-title,
+			.elementor-element-2c17721d .elementor-image-box-title,
+			.elementor-element-16a0b523 .elementor-image-box-title,
+			.elementor-element-e3826ca .elementor-image-box-title,
+			.elementor-element-2024a90 .elementor-image-box-title {
+				font-size: 9px !important;
+				margin: 0 !important;
+				line-height: 1.2 !important;
+			}
+
+			.elementor-element-7dd4e735 .elementor-image-box-description,
+			.elementor-element-6b2d4e4b .elementor-image-box-description,
+			.elementor-element-6b512bae .elementor-image-box-description,
+			.elementor-element-2c17721d .elementor-image-box-description,
+			.elementor-element-16a0b523 .elementor-image-box-description,
+			.elementor-element-e3826ca .elementor-image-box-description,
+			.elementor-element-2024a90 .elementor-image-box-description {
+				font-size: 8px !important;
+				margin: 0 !important;
+				line-height: 1.2 !important;
+			}
+
+			/* 减少图标大小 */
+			.elementor-element-7dd4e735 .elementor-icon-list-icon,
+			.elementor-element-6b2d4e4b .elementor-icon-list-icon,
+			.elementor-element-6b512bae .elementor-icon-list-icon,
+			.elementor-element-2c17721d .elementor-icon-list-icon,
+			.elementor-element-16a0b523 .elementor-icon-list-icon,
+			.elementor-element-e3826ca .elementor-icon-list-icon,
+			.elementor-element-2024a90 .elementor-icon-list-icon {
+				font-size: 8px !important;
+				margin-right: 2px !important;
+			}
+
+			/* 进一步缩小分隔线间距 */
+			.elementor-element-7dd4e735 .elementor-divider,
+			.elementor-element-6b2d4e4b .elementor-divider,
+			.elementor-element-6b512bae .elementor-divider,
+			.elementor-element-2c17721d .elementor-divider,
+			.elementor-element-16a0b523 .elementor-divider,
+			.elementor-element-e3826ca .elementor-divider,
+			.elementor-element-2024a90 .elementor-divider {
+				margin: 2px 0 !important;
+			}
+
+			/* 进一步缩小spacer高度 */
+			.elementor-element-7dd4e735 .elementor-spacer,
+			.elementor-element-6b2d4e4b .elementor-spacer,
+			.elementor-element-6b512bae .elementor-spacer,
+			.elementor-element-2c17721d .elementor-spacer,
+			.elementor-element-16a0b523 .elementor-spacer,
+			.elementor-element-e3826ca .elementor-spacer,
+			.elementor-element-2024a90 .elementor-spacer {
+				height: 3px !important;
+			}
+
+			/* 缩小widget容器内边距 */
+			.elementor-element-7dd4e735 .elementor-widget-container,
+			.elementor-element-6b2d4e4b .elementor-widget-container,
+			.elementor-element-6b512bae .elementor-widget-container,
+			.elementor-element-2c17721d .elementor-widget-container,
+			.elementor-element-16a0b523 .elementor-widget-container,
+			.elementor-element-e3826ca .elementor-widget-container,
+			.elementor-element-2024a90 .elementor-widget-container {
+				padding: 0 !important;
+			}
+		}
+	
+
+
+/* 产品布局：两列结构 - PC和移动端保持一致 */
+
+/* 缩小顶部标题和下方内容的间隔 */
+.elementor-element-7b51ae25 {
+    margin-bottom: 5px !important;
+}
+
+.elementor-element-3c275a6 {
+    margin-top: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+.elementor-element-7d7f99ca {
+    padding-bottom: 10px !important;
+}
+
+/* 覆盖所有产品section中的列宽度设置 */
+.elementor-element-7dd4e735 .elementor-column,
+.elementor-element-6b2d4e4b .elementor-column,
+.elementor-element-6b512bae .elementor-column,
+.elementor-element-2c17721d .elementor-column,
+.elementor-element-16a0b523 .elementor-column,
+.elementor-element-e3826ca .elementor-column,
+.elementor-element-2024a90 .elementor-column {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    min-width: 50% !important;
+}
+
+
+
+/* 确保父容器支持绝对定位 */
+.elementor-element-a426a8e,
+.elementor-element-324b2f7e {
+    position: relative !important;
+}
+
+/* 调整第一列的padding-top，为标题留出空间 */
+.elementor-element-a426a8e .elementor-widget-wrap,
+.elementor-element-324b2f7e .elementor-widget-wrap {
+    padding-top: 60px !important;
+}
+
+/* 产品section容器 - 添加边界和最大宽度 */
+.elementor-section.elementor-element-7dd4e735,
+.elementor-section.elementor-element-6b2d4e4b,
+.elementor-section.elementor-element-6b512bae,
+.elementor-section.elementor-element-2c17721d,
+.elementor-section.elementor-element-16a0b523,
+.elementor-section.elementor-element-e3826ca,
+.elementor-section.elementor-element-2024a90 {
+    max-width: 1200px !important;
+    margin: 20px auto !important;
+    padding: 30px !important;
+    background: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+}
+
+/* #1 Best Overall 产品 - 华丽的金红色边框样式 */
+.elementor-section.elementor-element-7dd4e735,
+.elementor-section.elementor-element-e3826ca,
+.elementor-section.elementor-element-2024a90 {
+    border: 6px solid transparent !important;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(135deg, #FFD700, #FF8C00, #DC143C, #FFD700) border-box !important;
+    box-shadow: 0 8px 24px rgba(220, 20, 60, 0.3), 
+                0 0 0 1px rgba(255, 215, 0, 0.2) inset !important;
+    position: relative !important;
+}
+
+/* #1 Best Overall - 添加金红色发光效果 */
+.elementor-section.elementor-element-7dd4e735::before,
+.elementor-section.elementor-element-e3826ca::before,
+.elementor-section.elementor-element-2024a90::before {
+    content: '' !important;
+    position: absolute !important;
+    top: -2px !important;
+    left: -2px !important;
+    right: -2px !important;
+    bottom: -2px !important;
+    background: linear-gradient(135deg, #FFD700, #FF8C00, #DC143C, #FFD700) !important;
+    border-radius: 10px !important;
+    z-index: -1 !important;
+    opacity: 0.3 !important;
+    filter: blur(8px) !important;
+}
+
+/* #1 Best Overall 标签样式增强 - 金红色 */
+.elementor-section.elementor-element-7dd4e735 .elementor-element-6b33d6ea .elementor-button,
+.elementor-section.elementor-element-e3826ca .elementor-element-4779dd7 .elementor-button {
+    background: linear-gradient(135deg, #FFD700, #FF8C00) !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.4) !important;
+    border: 2px solid #FFD700 !important;
+}
+
+/* Best Overall 产品按钮放大 */
+.elementor-section.elementor-element-7dd4e735 .elementor-button,
+.elementor-section.elementor-element-e3826ca .elementor-button,
+.elementor-section.elementor-element-2024a90 .elementor-button {
+    font-size: 1.5em !important;
+    padding: 15px 30px !important;
+    min-width: 200px !important;
+}
+
+/* 移除最上方标题顶部留白 */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body.elementor-page {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.elementor.elementor-1112 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.elementor-section.elementor-element-7d7f99ca {
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+}
+
+.elementor-element-7d7f99ca .elementor-container {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.elementor-element-407fe855 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.elementor-element-407fe855 .elementor-widget-wrap {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* 标题#1和#2放置在容器左上角 */
+.elementor-section.elementor-element-7dd4e735 .elementor-element-6b33d6ea,
+.elementor-section.elementor-element-6b2d4e4b .elementor-element-6c50376e {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 10 !important;
+    margin: 0 !important;
+}
+
+/* 调整第一列的padding-top，为标题留出空间 */
+.elementor-section.elementor-element-7dd4e735 .elementor-element-a426a8e .elementor-widget-wrap,
+.elementor-section.elementor-element-6b2d4e4b .elementor-element-324b2f7e .elementor-widget-wrap {
+    padding-top: 50px !important;
+}
+
+/* 隐藏产品中的分隔线 */
+.elementor-element-7dd4e735 .elementor-divider,
+.elementor-element-6b2d4e4b .elementor-divider,
+.elementor-element-6b512bae .elementor-divider,
+.elementor-element-2c17721d .elementor-divider,
+.elementor-element-16a0b523 .elementor-divider,
+.elementor-element-e3826ca .elementor-divider,
+.elementor-element-2024a90 .elementor-divider {
+    display: none !important;
+}
+
+/* 移除所有边框 */
+.elementor-element-7dd4e735 *,
+.elementor-element-6b2d4e4b *,
+.elementor-element-6b512bae *,
+.elementor-element-2c17721d *,
+.elementor-element-16a0b523 *,
+.elementor-element-e3826ca *,
+.elementor-element-2024a90 * {
+    border-color: transparent !important;
+}
+
+/* 产品section内部容器 - 强制两列布局 */
+.elementor-section.elementor-element-7dd4e735 .elementor-container,
+.elementor-section.elementor-element-6b2d4e4b .elementor-container,
+.elementor-section.elementor-element-6b512bae .elementor-container,
+.elementor-section.elementor-element-2c17721d .elementor-container,
+.elementor-section.elementor-element-16a0b523 .elementor-container,
+.elementor-section.elementor-element-e3826ca .elementor-container,
+.elementor-section.elementor-element-2024a90 .elementor-container {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+/* 第一列（图片+评分）- 绝对固定50%宽度，所有产品统一 */
+.elementor-element-a426a8e,
+.elementor-element-324b2f7e,
+.elementor-element-589b4261,
+.elementor-element-3888883d,
+.elementor-element-26e8aecb,
+.elementor-element-f686e63,
+.elementor-element-dc5e633 {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    min-width: 50% !important;
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* 第二列（产品描述）- 绝对固定50%宽度，所有产品统一 */
+.elementor-element-2c67bc9b,
+.elementor-element-1aae42af,
+.elementor-element-2c9f53a0,
+.elementor-element-44dd5fb0,
+.elementor-element-1358cc19,
+.elementor-element-f686e63,
+.elementor-element-683ed75 {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    min-width: 50% !important;
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* 隐藏第三列（原评分列） */
+.elementor-element-28b31f84,
+.elementor-element-17b1a131,
+.elementor-element-53720eda,
+.elementor-element-3d0a4b18,
+.elementor-element-4201169a,
+.elementor-element-44a2728,
+.elementor-element-f8d5e75 {
+    display: none !important;
+}
+
+/* 第一列内容垂直居中对齐，统一padding */
+.elementor-element-a426a8e .elementor-widget-wrap,
+.elementor-element-324b2f7e .elementor-widget-wrap,
+.elementor-element-589b4261 .elementor-widget-wrap,
+.elementor-element-3888883d .elementor-widget-wrap,
+.elementor-element-26e8aecb .elementor-widget-wrap,
+.elementor-element-f686e63 .elementor-widget-wrap,
+.elementor-element-dc5e633 .elementor-widget-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* 第二列内容对齐，统一padding */
+.elementor-element-2c67bc9b .elementor-widget-wrap,
+.elementor-element-1aae42af .elementor-widget-wrap,
+.elementor-element-1358cc19 .elementor-widget-wrap,
+.elementor-element-683ed75 .elementor-widget-wrap {
+    padding: 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* 标题和按钮居中 */
+.elementor-element-a426a8e .elementor-heading-title,
+.elementor-element-324b2f7e .elementor-heading-title,
+.elementor-element-5e0e1e8f .elementor-heading-title,
+.elementor-element-2c9f53a0 .elementor-heading-title,
+.elementor-element-44dd5fb0 .elementor-heading-title,
+.elementor-element-f686e63 .elementor-heading-title,
+.elementor-element-dc5e633 .elementor-heading-title {
+    text-align: center !important;
+    width: 100% !important;
+}
+
+/* 图片容器居中，统一尺寸，防止溢出 */
+.elementor-element-a426a8e .elementor-widget-image,
+.elementor-element-324b2f7e .elementor-widget-image,
+.elementor-element-5e0e1e8f .elementor-widget-image,
+.elementor-element-2c9f53a0 .elementor-widget-image,
+.elementor-element-44dd5fb0 .elementor-widget-image,
+.elementor-element-f686e63 .elementor-widget-image,
+.elementor-element-dc5e633 .elementor-widget-image {
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+/* 统一图片尺寸，防止撑开容器 */
+.elementor-element-a426a8e img,
+.elementor-element-324b2f7e img,
+.elementor-element-5e0e1e8f img,
+.elementor-element-2c9f53a0 img,
+.elementor-element-44dd5fb0 img,
+.elementor-element-f686e63 img,
+.elementor-element-dc5e633 img {
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
+    max-height: 500px !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+/* 评分和评论文字居中 */
+.elementor-element-a426a8e .elementor-image-box-content,
+.elementor-element-324b2f7e .elementor-image-box-content,
+.elementor-element-5e0e1e8f .elementor-image-box-content,
+.elementor-element-2c9f53a0 .elementor-image-box-content,
+.elementor-element-44dd5fb0 .elementor-image-box-content,
+.elementor-element-f686e63 .elementor-image-box-content,
+.elementor-element-dc5e633 .elementor-image-box-content {
+    text-align: center !important;
+    width: 100% !important;
+}
+
+/* 按钮容器宽度控制 */
+.elementor-element-a426a8e .elementor-button-wrapper,
+.elementor-element-324b2f7e .elementor-button-wrapper,
+.elementor-element-5e0e1e8f .elementor-button-wrapper,
+.elementor-element-2c9f53a0 .elementor-button-wrapper,
+.elementor-element-44dd5fb0 .elementor-button-wrapper,
+.elementor-element-f686e63 .elementor-button-wrapper,
+.elementor-element-dc5e633 .elementor-button-wrapper {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+/* 移动端和平板 - 保持两列布局 */
+@media (max-width: 1024px) {
+    /* 容器适应屏幕 */
+    .elementor-section.elementor-element-7dd4e735,
+    .elementor-section.elementor-element-6b2d4e4b,
+    .elementor-section.elementor-element-6b512bae,
+    .elementor-section.elementor-element-2c17721d,
+    .elementor-section.elementor-element-16a0b523,
+    .elementor-section.elementor-element-e3826ca,
+    .elementor-section.elementor-element-2024a90 {
+        max-width: 95% !important;
+        margin: 15px auto !important;
+        padding: 20px !important;
+    }
+    
+    .elementor-element-a426a8e,
+    .elementor-element-324b2f7e,
+    .elementor-element-5e0e1e8f,
+    .elementor-element-2c9f53a0,
+    .elementor-element-44dd5fb0,
+    .elementor-element-f686e63,
+    .elementor-element-dc5e633,
+    .elementor-element-2c67bc9b,
+    .elementor-element-1aae42af,
+    .elementor-element-1358cc19,
+    .elementor-element-683ed75 {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        min-width: 50% !important;
+        flex-shrink: 0 !important;
+        flex-grow: 0 !important;
+    }
+    
+    /* Best Overall 产品按钮移动端样式 */
+    .elementor-section.elementor-element-7dd4e735 .elementor-button,
+    .elementor-section.elementor-element-e3826ca .elementor-button,
+    .elementor-section.elementor-element-2024a90 .elementor-button {
+        font-size: 1.3em !important;
+        padding: 12px 24px !important;
+        min-width: 160px !important;
+    }
+}
+
+/* 手机端 - 仍然保持两列布局，只调整尺寸 */
+@media (max-width: 767px) {
+    /* 容器适应小屏幕 */
+    .elementor-section.elementor-element-7dd4e735,
+    .elementor-section.elementor-element-6b2d4e4b,
+    .elementor-section.elementor-element-6b512bae,
+    .elementor-section.elementor-element-2c17721d,
+    .elementor-section.elementor-element-16a0b523,
+    .elementor-section.elementor-element-e3826ca,
+    .elementor-section.elementor-element-2024a90 {
+        max-width: 98% !important;
+        margin: 10px auto !important;
+        padding: 15px !important;
+    }
+    
+    .elementor-element-a426a8e,
+    .elementor-element-324b2f7e,
+    .elementor-element-5e0e1e8f,
+    .elementor-element-2c9f53a0,
+    .elementor-element-44dd5fb0,
+    .elementor-element-f686e63,
+    .elementor-element-dc5e633,
+    .elementor-element-2c67bc9b,
+    .elementor-element-1aae42af,
+    .elementor-element-1358cc19,
+    .elementor-element-683ed75 {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        min-width: 50% !important;
+        flex-shrink: 0 !important;
+        flex-grow: 0 !important;
+    }
+    
+    /* 图片自适应 */
+    .elementor-element-a426a8e img,
+    .elementor-element-324b2f7e img,
+    .elementor-element-5e0e1e8f img,
+    .elementor-element-2c9f53a0 img,
+    .elementor-element-44dd5fb0 img,
+    .elementor-element-f686e63 img,
+    .elementor-element-dc5e633 img {
+        max-width: 100% !important;
+        height: auto !important;
+        max-height: 300px !important;
+    }
+    
+    /* 文字适当缩小 */
+    .elementor-element-2c67bc9b,
+    .elementor-element-1aae42af,
+    .elementor-element-1358cc19,
+    .elementor-element-683ed75 {
+        font-size: 0.85em !important;
+    }
+    
+    /* 按钮和标题字体缩小 */
+    .elementor-element-a426a8e .elementor-heading-title,
+    .elementor-element-324b2f7e .elementor-heading-title,
+    .elementor-element-5e0e1e8f .elementor-heading-title,
+    .elementor-element-2c9f53a0 .elementor-heading-title,
+    .elementor-element-44dd5fb0 .elementor-heading-title,
+    .elementor-element-f686e63 .elementor-heading-title,
+    .elementor-element-dc5e633 .elementor-heading-title {
+        font-size: 0.9em !important;
+    }
+    
+    /* 减少padding */
+    .elementor-element-a426a8e .elementor-widget-wrap,
+    .elementor-element-324b2f7e .elementor-widget-wrap,
+    .elementor-element-5e0e1e8f .elementor-widget-wrap,
+    .elementor-element-2c9f53a0 .elementor-widget-wrap,
+    .elementor-element-44dd5fb0 .elementor-widget-wrap,
+    .elementor-element-f686e63 .elementor-widget-wrap,
+    .elementor-element-dc5e633 .elementor-widget-wrap,
+    .elementor-element-2c67bc9b .elementor-widget-wrap,
+    .elementor-element-1aae42af .elementor-widget-wrap,
+    .elementor-element-1358cc19 .elementor-widget-wrap,
+    .elementor-element-683ed75 .elementor-widget-wrap {
+        padding: 10px !important;
+    }
+    
+    /* Best Overall 产品按钮手机端样式 */
+    .elementor-section.elementor-element-7dd4e735 .elementor-button,
+    .elementor-section.elementor-element-e3826ca .elementor-button,
+    .elementor-section.elementor-element-2024a90 .elementor-button {
+        font-size: 1.2em !important;
+        padding: 10px 20px !important;
+        min-width: 140px !important;
+    }
+}
+
+
+

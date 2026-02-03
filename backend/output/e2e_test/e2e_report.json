@@ -1,0 +1,46 @@
+{
+  "input": {
+    "winner_name": "Ororo Heated Vest",
+    "product_type": "heated vest",
+    "user_image_url": "https://example.com/user-uploaded-image.jpg"
+  },
+  "step1_competitors": {
+    "competitors": [
+      "Milwaukee M12 Heated Vest",
+      "Gobi Heat Heated Vest",
+      "Venustas Heated Vest",
+      "Dewalt Heated Vest"
+    ],
+    "time": 3.8433492183685303
+  },
+  "step2_content": {
+    "headings_count": 46,
+    "paragraphs_count": 37,
+    "lists_count": 17,
+    "buttons_count": 17,
+    "image_keywords_count": 12,
+    "token_usage": {
+      "total_tokens": 4635,
+      "prompt_tokens": 1373,
+      "completion_tokens": 3262,
+      "api_calls": 1
+    },
+    "time": 34.30354976654053
+  },
+  "step3_images": {
+    "total": 12,
+    "success": 9,
+    "user_uploaded": 3,
+    "failed": 0,
+    "time": 18.313480377197266
+  },
+  "step4_template": {
+    "output_path": "d:\\桌面\\网页重置\\backend\\output\\e2e_test\\final_output.html",
+    "output_size": 94989,
+    "time": 0.08492922782897949
+  },
+  "summary": {
+    "total_time": 56.54538679122925,
+    "success": true
+  }
+}
