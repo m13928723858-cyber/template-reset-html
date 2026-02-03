@@ -65,7 +65,7 @@ REM 安装前端依赖
 echo [4/4] 安装前端依赖...
 echo 这可能需要几分钟，请耐心等待...
 cd /d "%~dp0frontend"
-call npm install
+call pnpm install
 if errorlevel 1 (
     echo ❌ 安装前端依赖失败
     pause
